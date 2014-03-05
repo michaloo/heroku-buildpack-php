@@ -356,9 +356,9 @@ which pear
 echo $LD_PRELOAD
 echo $LIBRARY_PATH
 echo $LD_LIBRARY_PATH
-export LD_LIBRARY_PATH=$HOME/lib
-export LB_PRELOAD=$HOME/lib
-export LIBRARY_PATH=$HOME/lib
+export LD_LIBRARY_PATH=/app/vendor/lib
+export LB_PRELOAD=/app/vendor/lib
+export LIBRARY_PATH=/app/vendor/lib
 echo $LD_PRELOAD
 echo $LIBRARY_PATH
 echo $LD_LIBRARY_PATH
