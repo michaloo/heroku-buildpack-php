@@ -450,6 +450,9 @@ export DOCUMENT_ROOT="$DOCUMENT_ROOT"
 export INDEX_DOCUMENT="$INDEX_DOCUMENT"
 export NGINX_INCLUDES="$NGINX_INCLUDES"
 
+echo $LD_LIBRARY_PATH;
+echo $LIBRARY_PATH;
+
 export LD_LIBRARY_PATH=/app/vendor/lib
 export LIBRARY_PATH=/app/vendor/lib
 
