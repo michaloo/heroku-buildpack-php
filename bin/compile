@@ -351,10 +351,12 @@ cp "$basedir/../conf/php/php-fpm.conf" "/app/vendor/php/etc/php-fpm.conf"
 cp "$basedir/../conf/php/php.ini" "/app/vendor/php/etc/php.ini"
 echo "a";
 
-which pear
-pear version
+
+
 ls -al /usr/local/lib/
 ls -al /usr/lib
+which pear
+pear version
 echo "1"
 pear config-set php_ini /app/vendor/php/etc/php.ini &> /dev/null
 echo "a";
