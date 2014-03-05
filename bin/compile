@@ -352,10 +352,8 @@ cp "$basedir/../conf/php/php.ini" "/app/vendor/php/etc/php.ini"
 echo "a";
 
 
-
-ls -al /usr/local/lib/
-ls -al /usr/lib
 which pear
+echo $LD_LIBRARY_PATH
 pear version
 echo "1"
 pear config-set php_ini /app/vendor/php/etc/php.ini &> /dev/null
