@@ -464,6 +464,9 @@ erb conf/site.conf.erb > /app/vendor/nginx/conf/site.conf
 `tail_log_plex ${LOG_FILES} ${SYS_LOG_FILES}`
 
 (
+    export LD_LIBRARY_PATH=/app/vendor/lib
+export LIBRARY_PATH=/app/vendor/lib
+    
     exec php-fpm -p "/app/vendor/php"
     \$pmsgr < "php-fpm"
 )&
