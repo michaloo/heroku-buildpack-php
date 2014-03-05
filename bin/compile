@@ -353,6 +353,8 @@ echo "a";
 
 which pear
 pear version
+ls -al /usr/local/lib/
+ls -al /usr/lib
 echo "1"
 pear config-set php_ini /app/vendor/php/etc/php.ini &> /dev/null
 echo "a";
